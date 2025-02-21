@@ -6,12 +6,12 @@ using UnityEngine.Windows;
 
 public class ControleAraigneeV3 : MonoBehaviour
 {
-    // variables de mouvement et contrôle
+    // variables de mouvement et contrï¿½le
     [SerializeField] private float _vitessePromenade;
     private Rigidbody _rb;
     private Vector3 directionInput;
 
-    // variables de contrôle d'animation
+    // variables de contrï¿½le d'animation
     [SerializeField] private float _modifierAnimTranslation;
     private Animator _animator;
     private float _rotationVelocity;
